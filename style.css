@@ -1,0 +1,8 @@
+.artist {
+  display: -webkit-flex;
+  display: flex;
+}
+.artist-summary {
+  display: -webkit-flex;
+  display: flex;
+}
