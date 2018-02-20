@@ -1,21 +1,29 @@
 body {
-  padding: 24px;
+  margin: 0;
+  padding-left: 36px;
   font-family: gill sans, sans-serif;
   display: -webkit-flex;
   display: flex;
   flex-direction: column;
+}
+.title {
+  position: fixed;
+  min-width: 100%;
+  padding-top: 36px;
+  background-color: white;
 }
 h1 {
   margin: 0px;
 }
 .artist-list {
   flex: 1 0 1000px;
+  padding-top: 74px;
   border-bottom: 1px solid;
 }
 .artist {
+  max-width: 1100px;
   margin-top: 10px;
   margin-left: 20px;
-  max-width: 1100px;
   background-color: whitesmoke;
   display: -webkit-flex;
   display: flex;
@@ -41,8 +49,8 @@ img {
   flex-direction: column;
 }
 .artist-name {
-  margin-top: 10px;
   flex: 0 0 28px;
+  margin-top: 10px;
 }
 h2 {
   margin: 0px;
