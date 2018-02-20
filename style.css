@@ -1,15 +1,30 @@
 body {
+  padding: 24px;
   font-family: gill sans, sans-serif;
 }
 .artist {
   display: -webkit-flex;
   display: flex;
+  margin-top: 10px;
   background-color: lightgrey;
 }
+.artist-image {
+  max-width: 500px;
+}
+figure {
+  margin: 10px;
+}
 img {
-  max-width: 100%; 
+  max-width: 100%;
+}
+.artist-name {
+  margin-top: 10px;
+}
+h2 {
+  margin: 0px;
 }
 .artist-summary {
   display: -webkit-flex;
   display: flex;
+  margin-top: 6px;
 }
