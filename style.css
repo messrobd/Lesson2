@@ -21,12 +21,15 @@ h1 {
 }
 figure {
   margin: 10px;
+  margin-right: 0px;
 }
 img {
   max-width: 100%;
 }
 .artist-description {
   flex-grow: 1;
+  margin-left: 10px;
+  margin-right: 10px;
   display: flex;
   flex-direction: column;
 }
