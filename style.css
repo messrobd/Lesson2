@@ -1,6 +1,13 @@
+body {
+  font-family: gill sans, sans-serif;
+}
 .artist {
   display: -webkit-flex;
   display: flex;
+  background-color: lightgrey;
+}
+img {
+  max-width: 100%; 
 }
 .artist-summary {
   display: -webkit-flex;
