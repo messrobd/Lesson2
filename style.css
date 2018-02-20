@@ -46,7 +46,10 @@ h2 {
 }
 .artist-details {
   flex: 8 0 19px;
+}
+p {
   margin-top: 6px;
+  margin-bottom: 0px;
 }
 .sample-track {
   flex: 0 0 19px;
