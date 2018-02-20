@@ -24,14 +24,27 @@ figure {
 img {
   max-width: 100%;
 }
+.artist-description {
+  display: flex;
+  flex-direction: column;
+}
 .artist-name {
   margin-top: 10px;
+  flex: 0 0 28px;
 }
 h2 {
   margin: 0px;
 }
 .artist-summary {
+  flex: 0 0 19px;
   display: -webkit-flex;
   display: flex;
+  justify-content: space-between;
   margin-top: 6px;
+}
+.artist-details {
+  flex: 8 0 19px;
+}
+.sample-track {
+  flex: 0 0 19px;
 }
