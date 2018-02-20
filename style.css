@@ -61,10 +61,11 @@ h2 {
   display: -webkit-flex;
   display: flex;
   justify-content: space-between;
+  white-space: nowrap;
   font-style: italic;
 }
 .artist-details {
-  flex: 8 0 19px;
+  flex: 1 0 19px;
 }
 p {
   margin-top: 6px;
