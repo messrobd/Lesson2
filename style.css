@@ -2,9 +2,6 @@ body {
   padding: 24px;
   font-family: gill sans, sans-serif;
 }
-.title {
-
-}
 h1 {
   margin: 0px;
 }
@@ -18,10 +15,12 @@ h1 {
 }
 .artist-image {
   flex: 1 0 500px;
+  margin-left: 10px;
 }
 figure {
-  margin: 10px;
-  margin-right: 0px;
+  margin: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 img {
   max-width: 100%;
@@ -46,6 +45,7 @@ h2 {
   display: -webkit-flex;
   display: flex;
   justify-content: space-between;
+  font-style: italic;
 }
 .artist-details {
   flex: 8 0 19px;
