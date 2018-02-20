@@ -1,9 +1,16 @@
 body {
   padding: 24px;
   font-family: gill sans, sans-serif;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
 }
 h1 {
   margin: 0px;
+}
+.artist-list {
+  flex: 1 0 1000px;
+  border-bottom: 1px solid;
 }
 .artist {
   margin-top: 10px;
@@ -29,6 +36,7 @@ img {
   flex-grow: 1;
   margin-left: 10px;
   margin-right: 10px;
+  display: -webkit-flex;
   display: flex;
   flex-direction: column;
 }
@@ -58,4 +66,7 @@ p {
   flex: 0 0 19px;
   margin-top: 6px;
   margin-bottom: 10px;
+}
+.footer {
+  flex: 0 0 19px;
 }
