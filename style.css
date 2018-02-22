@@ -17,14 +17,12 @@ h1 {
 }
 .artist-list {
   flex: 1 0 1000px;
-  padding-top: 74px;
-  padding-bottom: 10px;
+  padding: 74px 0 10px 0;
   border-bottom: 1px solid;
 }
 .artist {
   max-width: 1100px;
-  margin-top: 10px;
-  margin-left: 20px;
+  margin: 10px 0 0 20px;
   background-color: whitesmoke;
   display: -webkit-flex;
   display: flex;
@@ -34,17 +32,14 @@ h1 {
   margin-left: 10px;
 }
 figure {
-  margin: 0px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin: 10px 0 10px 0;
 }
 img {
   max-width: 100%;
 }
 .artist-description {
   flex-grow: 1;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 0 10px 0 10px;
   display: -webkit-flex;
   display: flex;
   flex-direction: column;
@@ -68,14 +63,15 @@ h2 {
 .artist-details {
   flex: 1 0 19px;
 }
-p {
-  margin-top: 6px;
-  margin-bottom: 0px;
+.summary-text {
+  margin: 0;
+}
+.description-text {
+  margin: 6px 0;
 }
 .sample-track {
   flex: 0 0 19px;
-  margin-top: 6px;
-  margin-bottom: 10px;
+  margin: 6px 0 10px 0;
 }
 .footer {
   flex: 0 0 19px;
